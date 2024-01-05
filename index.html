@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Brian's To-Do List</h1>
+</header>
+
+<main class="todo-container">
+    <section class="add-task-section">
+        <input type="text" id="todo-input" placeholder="Add a task...">
+        
+        <select id="category-select">
+            <option value="work">Work</option>
+            <option value="exercise">Exercise</option>
+            <option value="daily-routine">Daily Routine</option>
+            <option value="rest">Rest</option>
+        </select>
+        <!-- Priority selection dropdown -->
+        <select id="priority-select">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button onclick="addTask()">Add</button>
+    </section>
+    
+    <section class="task-list-section">
+        <ul id="todo-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Brian Nguyen &copy; 2023</p>
+    <div class = "foot-images">
+        <img src="bryan-3.jpg" alt="Your Image Description" class="footer-image">
+
+        <img src="DSC06875.jpg" alt="Second Image Description" class="footer-image2">
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

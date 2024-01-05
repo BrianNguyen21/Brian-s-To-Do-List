@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.todo-container {
+    background: #fff;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+#todo-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cabff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a90e2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    position: relative;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff6347;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #ff2e00;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image {
+    max-width: 100px; /* Adjust to desired size */
+    max-height: 100px; /* Adjust to desired size */
+    width: 80 px; /* Adjusts width to maintain aspect ratio */
+    height: 60 px; /* Adjusts height to maintain aspect ratio */
+    margin: 0 5px; /* Spacing between images */
+}
+
+.footer-image2 {
+    max-width: 100px; /* Adjust to desired size */
+    max-height: 100px; /* Adjust to desired size */
+    width: 80 px; /* Adjusts width to maintain aspect ratio */
+    height: 60 px; /* Adjusts height to maintain aspect ratio */
+    margin: 0 5px; /* Spacing between images */
+}
+
+/* ... existing styles ... */
+
+.work {
+    border-left: 4px solid blue;
+}
+
+.exercise {
+    border-left: 4px solid green;
+}
+
+.daily-routine {
+    border-left: 4px solid orange;
+}
+
+.rest {
+    border-left: 4px solid purple;
+}
+
+/* priority */
+
+.priority {
+    font-weight: bold;
+    color: #007bff; /* Or any color of your choice */
+}
+
+/* Optional: Style different priorities with different colors */
+.High { color: red; }
+.Medium { color: orange; }
+.Low { color: green; }
